@@ -16,7 +16,7 @@ This is my take on the second task of OS110 class
  6. [Proverb](https://exercism.io/my/solutions/1a454ddd0f7b4f1fb67e8ba459207472)
  7. [Difference of Squares](https://exercism.io/my/solutions/f63223908aff431e8575afd19a7ff9d8)
  8. [Sum Of Multiplies](https://exercism.io/my/solutions/aaf2c329f0e24e7b848ddc93431cbe43)
- 9. [Grains](https://exercism.io/my/solutions/b732ef6c52d447878d6760f6bd40953f) and [Leap](https://exercism.io/my/solutions/f69e4fe7b30b468d818fb6783208bce0)
+ 9. [Grains](https://exercism.io/my/solutions/b732ef6c52d447878d6760f6bd40953f)
  10. [Leap](https://exercism.io/my/solutions/f69e4fe7b30b468d818fb6783208bce0)
  11. [Hello World!](https://exercism.io/my/solutions/da0f0fdcad1c4e71a92edea6efa1737d)
  
