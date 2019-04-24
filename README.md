@@ -54,49 +54,56 @@ direction it is pointing.
   of instructions should leave it at {9, 4} facing west.
   
   
-  ### Identification of Problem
+ ### Identification of Problem
   
-  From the introduction above we know that:
+ From the introduction above we know that:
   
-  1. The robot has two sets of parameter(directional and positional)
+ 1. The robot has two sets of parameter(directional and positional)
+ 
    - Directional parameter is the current direction of the robot is heading
      ex: `{North, east, south, and west}`
+     
    - Positional parameter is the current direction of the robot is at
      ex: `{point_x, point_y}`
      
-  2. The robot has two sets of instruction(directional and positional) -> Has three instruction in total 
+ 2. The robot has two sets of instruction(directional and positional) -> Has three instruction in total 
+ 
    - Directional instruction is to change the current direction of the robot is heading
      ex: `{turn_left, turn_right]` -> only turn left or right
+     
    - Positional instuction is the change current direction of the robot is at
      ex: `{advance}` -> only move in one direction by one point
+     
      so, the robot has three kinds of instructions in total.
      
-  3. The program has a function to read string of character in order to control the robot
+ 3. The program has a function to read string of character in order to control the robot
      ex: `{"RAALAL"}`-> only three sets of characters/commands
   
   Based on those set of data that we know, we can start to work on this problem. 
   
-  ### Starting point to Approach to the problem
+ ### Starting point to Approach to the problem
   
   To solve the problem we need to construct those sets of parameter and instruction.
   
   1. Starting with defining the direction with `enumeration`
+  
   ```
-  pub enum Direction {
-    North,
-    East,
-    South,
-    West,
-  }
+   pub enum Direction {
+     North,
+     East,
+     South,
+     West,
+   }
   ```
   
   2. And then we are to define the basic structure or `struct` 
+  
   ```
-  pub struct Robot {
-    point_x: i32,
-    point_y: i32,
-    dir: Direction,
-  }
+   pub struct Robot {
+     point_x: i32,
+     point_y: i32,
+     dir: Direction,
+   }
   ```
   
   3. Define the mainbody of all the function
