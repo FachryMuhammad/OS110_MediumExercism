@@ -9,15 +9,16 @@ This is my take on the second task of OS110 class
  4. [Perfect Numbers](https://exercism.io/my/solutions/c67fad99f313414494c1b9ccdaf23e6f)
  
  # List of Beginner Problem i have chosen :
- 1. [Reverse String](https://exercism.io/my/solutions/8c652b9cf5f645e6b3d1ba05af96ec1d)
- 2. [Raindrop](https://exercism.io/my/solutions/d9501c6489da4bb6baf5985ca2a6ef3e)
- 4. [Nth Prime](https://exercism.io/my/solutions/4e90e0da3e794c92941e7d11e60fde90)
- 5. [Beer Song](https://exercism.io/my/solutions/7ccf5e696dec4ffbb49d52c5050024db)
- 6. [Proverb](https://exercism.io/my/solutions/1a454ddd0f7b4f1fb67e8ba459207472)
- 7. [Difference of Squares](https://exercism.io/my/solutions/f63223908aff431e8575afd19a7ff9d8)
- 8. [Sum Of Multiplies](https://exercism.io/my/solutions/aaf2c329f0e24e7b848ddc93431cbe43)
- 9. [Grains](https://exercism.io/my/solutions/b732ef6c52d447878d6760f6bd40953f)
- 10. [Leap](https://exercism.io/my/solutions/f69e4fe7b30b468d818fb6783208bce0)
+ 1. [Leap](https://exercism.io/my/solutions/f69e4fe7b30b468d818fb6783208bce0)
+ 2. [Raindrops](https://exercism.io/my/solutions/d9501c6489da4bb6baf5985ca2a6ef3e)
+ 3. [Nth Prime](https://exercism.io/my/solutions/4e90e0da3e794c92941e7d11e60fde90)
+ 4. [Beer Song](https://exercism.io/my/solutions/7ccf5e696dec4ffbb49d52c5050024db)
+ 5. [Proverb](https://exercism.io/my/solutions/1a454ddd0f7b4f1fb67e8ba459207472)
+ 6. [Difference of Squares](https://exercism.io/my/solutions/f63223908aff431e8575afd19a7ff9d8)
+ 7. [Sum Of Multiplies](https://exercism.io/my/solutions/aaf2c329f0e24e7b848ddc93431cbe43)
+ 8. [Grains](https://exercism.io/my/solutions/b732ef6c52d447878d6760f6bd40953f)
+ 9. [Reverse String](https://exercism.io/my/solutions/8c652b9cf5f645e6b3d1ba05af96ec1d)
+ 10. [Gigasecond](https://exercism.io/my/solutions/762f2869949d4a79a2b7cb05f185e5e7)
  11. [Hello World!](https://exercism.io/my/solutions/da0f0fdcad1c4e71a92edea6efa1737d)
  
  
