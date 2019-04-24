@@ -17,6 +17,8 @@ This is my take on the second task of OS110 class
  7. [Difference of Squares](https://exercism.io/my/solutions/f63223908aff431e8575afd19a7ff9d8)
  8. [Sum Of Multiplies](https://exercism.io/my/solutions/aaf2c329f0e24e7b848ddc93431cbe43)
  9. [Grains](https://exercism.io/my/solutions/b732ef6c52d447878d6760f6bd40953f) and [Leap](https://exercism.io/my/solutions/f69e4fe7b30b468d818fb6783208bce0)
+ 10. [Leap](https://exercism.io/my/solutions/f69e4fe7b30b468d818fb6783208bce0)
+ 11. [Hello World!](https://exercism.io/my/solutions/da0f0fdcad1c4e71a92edea6efa1737d)
  
  
 ## Essay of "Robot Simulator" Task
@@ -59,26 +61,26 @@ direction it is pointing.
   
  1. The robot has two sets of parameter(directional and positional)
  
-   - Directional parameter is the current direction of the robot is heading
-     ex: `{North, east, south, and west}`
-     
-   - Positional parameter is the current direction of the robot is at
-     ex: `{point_x, point_y}`
+    - Directional parameter is the current direction of the robot is heading
+      ex: `{North, east, south, and west}`
+
+    - Positional parameter is the current direction of the robot is at
+      ex: `{point_x, point_y}`
      
  2. The robot has two sets of instruction(directional and positional) -> Has three instruction in total 
  
-   - Directional instruction is to change the current direction of the robot is heading
-     ex: `{turn_left, turn_right]` -> only turn left or right
-     
-   - Positional instuction is the change current direction of the robot is at
-     ex: `{advance}` -> only move in one direction by one point
-     
-     so, the robot has three kinds of instructions in total.
+    - Directional instruction is to change the current direction of the robot is heading
+      ex: `{turn_left, turn_right]` -> only turn left or right
+
+    - Positional instuction is the change current direction of the robot is at
+      ex: `{advance}` -> only move in one direction by one point
+
+      so, the robot has three kinds of instructions in total.
      
  3. The program has a function to read string of character in order to control the robot
-     ex: `{"RAALAL"}`-> only three sets of characters/commands
-  
-  Based on those set of data that we know, we can start to work on this problem. 
+      ex: `{"RAALAL"}`-> only three sets of characters/commands
+
+    Based on those set of data that we know, we can start to work on this problem. 
   
  ### Starting point to Approach to the problem
   
@@ -86,39 +88,42 @@ direction it is pointing.
   
   1. Starting with defining the direction with `enumeration`
   
-  ```
-   pub enum Direction {
-     North,
-     East,
-     South,
-     West,
-   }
-  ```
+      ```
+       pub enum Direction {
+         North,
+         East,
+         South,
+         West,
+       }
+      ```
   
   2. And then we are to define the basic structure or `struct` 
   
-  ```
-   pub struct Robot {
-     point_x: i32,
-     point_y: i32,
-     dir: Direction,
-   }
-  ```
+      ```
+       pub struct Robot {
+         point_x: i32,
+         point_y: i32,
+         dir: Direction,
+       }
+      ```
   
   3. Define the mainbody of all the function
-  ```
-  impl Robot {
-      pub fn new(x: i32, y: i32, d: Direction) -> Self {
-          Robot {
-     point_x: x,
-     point_y : y,
-     dir : d,
-    }
-  }
-  ```
-  4. Complete all the function required according to the robot main function
   
-  ### Logical Approach to the problem
+     ```
+     impl Robot {
+         pub fn new(x: i32, y: i32, d: Direction) -> Self {
+             Robot {
+        point_x: x,
+        point_y : y,
+        dir : d,
+       }
+     }
+     ```
+     
+  4. Complete and arrange all the function required according to the robot main function
+  
+  
+### Logical Approach to the problem
   
   
   There are basically six set of function required in order to complete this task:
