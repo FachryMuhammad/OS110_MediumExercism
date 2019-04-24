@@ -3,26 +3,26 @@ This is my take on the second task of OS110 class
 
 
  #List of Medium Problem :
- - Triangle
- - Clock
- - Robot Simulator
+ 1. Triangle
+ 2. Clock
+ 3. Robot Simulator
  -
  
  #List of Beginner Problem :
- - Leap
- - Gigasecond
- - Hello World
- - Nth Prime
- - Reverse String
- - Raindrop
- - Beer Song
+ 1. Leap
+ 2. Gigasecond
+ 3. Hello World
+ 4. Nth Prime
+ 5. Reverse String
+ 6. Raindrop
+ 7. Beer Song
  
  
-# Essay of Robot Simulator Task
+## Essay of Robot Simulator Task
  This essay's purpose is to study and research the 'Robot Simulator' Task from exercism Rust Track's.
  
  
-# Introduction of the Task
+### Introduction of the Task
 
 Write a robot simulator.
 
