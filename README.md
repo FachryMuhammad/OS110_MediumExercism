@@ -2,6 +2,7 @@
 // NRM		  : 1313617019
 // PRODI	 : ILMU KOMPUTER 2017
 
+[https://fachrymuhammad.github.io/OS110_MediumExercism/](https://fachrymuhammad.github.io/OS110_MediumExercism/)
 [https://github.com/FachryMuhammad/OS110_MediumExercism](https://github.com/FachryMuhammad/OS110_MediumExercism)
 
 # OS110_MediumExercism
