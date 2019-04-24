@@ -1,3 +1,5 @@
+// [https://github.com/FachryMuhammad/OS110_MediumExercism](https://github.com/FachryMuhammad/OS110_MediumExercism)
+
 # OS110_MediumExercism
 This is my take on the second task of OS110 class
 
